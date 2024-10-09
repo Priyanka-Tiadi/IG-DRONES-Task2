@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Anniversary Flowchart</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            width: 1600px; /* Further increased width */
+            margin: 0 auto;
+            padding: 120px; /* Further increased padding */
+            text-align: center;
+            position: relative;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Larger shadow */
+        }
+
+        .logo {
+            width: 400px; /* Increase the logo size */
+            margin-bottom: 20px;
+            filter: brightness(0) saturate(100%) invert(18%) sepia(92%) saturate(5734%) hue-rotate(214deg) brightness(80%) contrast(113%);
+            color: #2740a4;
+            text-align: left;
+            position: absolute; /* Make it absolute to position it */
+            top: 20px; /* Adjust top position */
+            left: 20px; /* Adjust left position */
+        }
+
+        .drone-icon {
+            position: absolute;
+            top: 30px;
+            right: 20px;
+            width: 150px; /* Further increased size */
+        }
+
+        .title {
+            font-size: 100px; /* Further increased font size */
+            font-weight: bold;
+            color: #104ba9;
+        }
+
+        .message {
+            font-size: 48px; /* Further increased font size */
+            color: #555;
+            margin: 10px 0 40px; /* Adjusted bottom margin */
+        }
+
+        .profile-pic {
+            border-radius: 500%; /* Rounded profile picture */
+            width: 500px; /* Increased profile picture width */
+            height: 500px; /* Increased profile picture height */
+            object-fit: cover;
+            border: 10px solid #104ba9; /* Border around the profile picture */
+            margin: 50px 0; /* Margin for the profile picture */
+        }
+
+        .flowchart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .skew-box {
+            background-color: #104ba9; /* Color for the skewed box */
+            color: white;
+            padding: 200px; /* Adjusted padding for larger box */
+            margin-top: 0;
+            margin-right: 100; /* Removed negative margin */
+            margin-bottom: 0; /* Removed negative margin */
+            width: 1450px; /* Increased width */
+            position: relative;
+            overflow: hidden; /* Ensure content doesn't overflow */
+            transform: skewY(-8deg); /* Skew the box */
+            transform-origin: bottom left; /* Skew from bottom left */
+            min-height: 250px; /* Set a minimum height for the skew box */
+        }
+
+        .skew-box-content {
+            transform: skewY(8deg); /* Unskew the content inside */
+            text-align: center;
+        }
+
+        .name {
+            font-size: 100px; /* Adjust font size */
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .role {
+            font-size: 60px; /* Adjust font size */
+            margin: 0;
+        }
+
+        /* New bottom blue box */
+        .bottom-blue {
+            background-color: #104ba9; /* Blue color */
+            width: 1450px; /* Same width as skew box */
+            padding: 197px; /* Add some padding */
+            color: white; /* Text color */
+            margin-top: -328px;
+            margin-bottom: -578px;
+            margin-left: -118px;
+            margin-right: -450px; /* Overlap with skew box */
+            position: relative;
+            text-align: center;
+        }
+
+        /* Additional drone icon in the background */
+        .drone-bg {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            width: 150px; /* Increased size */
+            opacity: 0.5;
+            filter: hue-rotate(200deg) brightness(0.7); /* Apply blue tint */
+        }
+
+        .drone-bg-right {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            width: 150px; /* Increased size */
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo -->
+        <img src="https://igdrones.com/assets/img/ig-drones-logo.webp" alt="Company Logo" class="logo">
+
+        <!-- Title -->
+        <h1 class="title">H A P P Y <br> WORK ANNIVERSARY</h1>
+
+        <!-- Message -->
+        <p class="message">Your support and efforts have been instrumental in our progress.<br>
+            Thank you for growing with us and making a difference.</p>
+
+        <!-- Profile Picture -->
+        <img src="https://i.pinimg.com/originals/d8/18/5f/d8185fd24b750b632c6027bd7ca2b666.jpg" alt="Profile Picture" class="profile-pic">
+
+        <!-- Flowchart -->
+        <div class="flowchart">
+            <div class="skew-box">
+                <div class="skew-box-content">
+                    <p class="name">Sarat Kumar Naik</p>
+                    <p class="role">Graphics Designer</p>
+                </div>
+            </div>
+        </div> <!-- Closing flowchart div -->
+
+        <!-- New bottom blue box -->
+        <div class="bottom-blue">
+            <p></p>
+        </div>
+
+        <!-- Background Drones -->
+        <img src="https://png.pngtree.com/png-clipart/20231006/original/pngtree-quadcopter-in-realistic-style-blue-drone-with-camera-colorful-png-illustration-png-image_13130950.png" alt="Drone Icon" class="drone-bg">
+       
+       <br>
+       <br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+        <img src="https://img.freepik.com/premium-vector/drone-silhouette-vector-clip-art-isolated-design-illustration_517472-2539.jpg?w=740" alt="Drone Icon" class="drone-bg-right">
+    </div>
+
+</body>
+</html>
